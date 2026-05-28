@@ -212,7 +212,7 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 
 | 🏅 Global Rank | 🔥 Streak | 🎖️ Badges | 🏠 Rooms | ⚡ Level |
 |---|---|---|---|---|
-| **Top 7%** | **164 Days** | **15** | **94** | **[0x8] HACKER** |
+| **Top 7%** | **171 Days** | **15** | **98** | **[0x8] HACKER** |
 
 </div>
 
