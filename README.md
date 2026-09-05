@@ -26,14 +26,14 @@
 
 ## 👨‍💻 About Me
 
-> 🇮🇳 **Government-sector track record** — Diploma → B.Tech → CERT-In → C-DOT, all under Govt. of India institutions.
+> 🇮🇳 **Government-sector track record** — Diploma → BE → CERT-In → C-DOT, all under Govt. of India institutions.
 
-- 🔭 Currently: **SOC Analyst L1 @ C-DOT** (Centre for Development of Telematics, Dept. of Telecom, Govt. of India)
+- 🔭 Currently: **SOC Analyst L1 @ C-DOT** (Centre for Development of Telematics, Govt. of India) — 24x7 banking security operations, Trinetra SIEM across 600+ monitored elements
 - 🏛️ Previously: **Cybersecurity Trainee @ CERT-In** (MeitY, Govt. of India) — 6 months onsite, New Delhi
-- 🎓 B.Tech CSE — **SLIET Longowal**, Punjab (Central Govt. / MHRD Institute) | CGPA: 7.35
-- 🎓 Diploma CSE — **Govt. Polytechnic Barauni**, Bihar (State Govt.) | CGPA: 8.13
-- 🏆 **TryHackMe Top 7%** — 98 Rooms | 15 Badges | 171-Day Streak | [0x8][HACKER]
-- 💬 Ask me about: **SIEM, Zeek, ELK Stack, MITRE ATT&CK, Threat Detection**
+- 🎓 BE, Computer Science & Engineering — **SLIET Longowal**, Punjab (Central Govt. / MHRD Institute) | CGPA: 7.35
+- 🎓 Diploma, Computer Science & Engineering — **Govt. Polytechnic Barauni**, Bihar (State Govt.) | CGPA: 8.13
+- 🏆 **TryHackMe Top 5%** — 122 Rooms | 16 Badges | Level [0x9][MAGE]
+- 💬 Ask me about: **SIEM, SOC Operations, MITRE ATT&CK, Zeek, ELK Stack, Incident Response**
 - 📫 Reach me: [deepakkumarkunwar@outlook.com](mailto:deepakkumarkunwar@outlook.com)
 
 ---
@@ -41,9 +41,9 @@
 ## 🏛️ My Government Journey 🇮🇳
 
 ```
-  State Govt.        Central Govt.          MeitY                Dept. of Telecom
+  State Govt.        Central Govt.          MeitY                C-DOT
       |                    |                  |                         |
-  Diploma CSE          B.Tech CSE        CERT-In Trainee          C-DOT SOC L1
+  Diploma CSE            BE CSE          CERT-In Trainee          SOC Analyst L1
 Govt. Polytechnic    SLIET Longowal    Sep 2025–Mar 2026        Feb 2026–Present
   Barauni, Bihar     Punjab (MHRD)     New Delhi (Onsite)       New Delhi (Onsite)
    CGPA: 8.13         CGPA: 7.35       Dept: NCCC, MeitY       Trinetra SIEM Ops
@@ -54,66 +54,98 @@ Govt. Polytechnic    SLIET Longowal    Sep 2025–Mar 2026        Feb 2026–Pre
 
 ## 💼 Work Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🔵 SOC Analyst L1 — C-DOT
-**Centre for Development of Telematics**
-Dept. of Telecom, Govt. of India
+**Centre for Development of Telematics**, Govt. of India
 📅 Feb 2026 – Present | 📍 New Delhi
 
-- 🖥️ Operating **Trinetra SIEM** for real-time monitoring
-- 🚨 Alert triage, incident escalation, IOC identification
-- 📊 Analyzing network & endpoint logs
-- 🔧 Detection rule tuning & playbook improvements
+- 🖥️ Monitor **Trinetra SIEM** across two enterprise banking tenants (600+ monitored elements — endpoints, application servers, network devices); triage 300+ alerts per shift across Critical/High/Medium/Low severity
+- 🔁 Own the full alert lifecycle — log ingestion, parsing, normalization, correlation, L1 triage, TP/FP classification, ServiceNow ticketing, and L2 escalation within SLA/SOP
+- 🔍 Investigate detections mapped to MITRE ATT&CK (Credential Access, Persistence, Privilege Escalation, Execution, Network Discovery)
+- ✅ Validate alerts as TP/FP using detection logic, threat intel (VirusTotal, AbuseIPDB), and asset context — Windows process creation (4688), account lockout (4740), Linux SSH brute force, privilege escalation, SQL/application alerts
+- 📊 Monitor Trinetra SIEM & Grafana dashboards for log-source health and infrastructure anomalies
 
-> `C-DOT` `Trinetra SIEM` `SOC L1` `IOC` `Log Analysis`
+> `C-DOT` `Trinetra SIEM` `Multi-Tenant SIEM` `SOC L1` `MITRE ATT&CK` `ServiceNow`
 
-</td>
-<td width="50%" valign="top">
+---
 
 ### 🔴 Cybersecurity Trainee — CERT-In
 **MeitY, Govt. of India | Dept: NCCC**
-Mentor: Vidya Sagar Siddabattula, Scientist E
 📅 Sep 2025 – Mar 2026 | 📍 New Delhi (Onsite)
 
-- 🧪 Deployed **Zeek + Filebeat + ELK Stack** NSM pipeline
-- ⚔️ Atomic Red Team: T1003, T1548, T1053
-- 🔍 MITRE ATT&CK TTP correlation in Kibana
-- 📋 Documented real-world incidents per CERT-In standards
+- 📚 Completed Cybersecurity LMS — CIA Triad, threat taxonomy, SOC Tier 1/2/3 workflows, incident response lifecycle, vulnerability management fundamentals
+- 🗺️ Studied MITRE ATT&CK Enterprise Matrix (14 tactic categories) and applied TTPs to security event mapping
+- 🧪 Designed & validated a full NSM pipeline on Ubuntu Linux: **Zeek v8.0.4 → Filebeat v9.2.2 → Elasticsearch + Kibana (Docker)**
+- 🛠️ Resolved Elasticsearch 401 API-key auth failure and a Docker snapshot path issue; documented both per CERT-In standards
 
-> `CERT-In` `MeitY` `Zeek` `ELK Stack` `MITRE ATT&CK`
+> `CERT-In` `MeitY` `Zeek` `ELK Stack` `MITRE ATT&CK` `NSM`
 
-</td>
-</tr>
-</table>
+---
+
+### ⚪ Front-End Developer Intern — Satyanarayana United Software Pvt. Ltd.
+📅 Jun 2024 – Aug 2024 | 📍 Noida (Onsite)
+
+- 💻 Developed responsive web components (HTML, CSS, JavaScript, Bootstrap)
+- ⚡ Implemented UI optimizations that cut page load time by **40%**
+
+> `HTML` `CSS` `JavaScript` `Bootstrap`
 
 ---
 
 ## 🛡️ Technical Skills
 
-### SIEM & Security Monitoring
+### SIEM & Log Management
+![Trinetra SIEM](https://img.shields.io/badge/Trinetra_SIEM-1B3A6B?style=flat-square&logoColor=white)
 ![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Logstash](https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=elastic&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-E8478B?style=flat-square&logo=kibana&logoColor=white)
 ![Zeek NSM](https://img.shields.io/badge/Zeek_NSM-2C2C2C?style=flat-square&logoColor=white)
 ![Filebeat](https://img.shields.io/badge/Filebeat-005571?style=flat-square&logo=elastic&logoColor=white)
-![Trinetra SIEM](https://img.shields.io/badge/Trinetra_SIEM-1B3A6B?style=flat-square&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![Multi-Tenant SIEM](https://img.shields.io/badge/Multi--Tenant_SIEM-1F618D?style=flat-square&logoColor=white)
+![Correlation Rules](https://img.shields.io/badge/Correlation_Rules-1F618D?style=flat-square&logoColor=white)
 
-### Threat Detection & Incident Response
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF0000?style=flat-square&logoColor=white)
-![Atomic Red Team](https://img.shields.io/badge/Atomic_Red_Team-FF4500?style=flat-square&logoColor=white)
-![IOC Analysis](https://img.shields.io/badge/IOC_Analysis-1F618D?style=flat-square&logoColor=white)
-![DFIR](https://img.shields.io/badge/DFIR-2C3E50?style=flat-square&logoColor=white)
+### SOC Operations
 ![Alert Triage](https://img.shields.io/badge/Alert_Triage-0F6E56?style=flat-square&logoColor=white)
+![Threat Detection](https://img.shields.io/badge/Threat_Detection-0F6E56?style=flat-square&logoColor=white)
+![Incident Investigation](https://img.shields.io/badge/Incident_Investigation-0F6E56?style=flat-square&logoColor=white)
+![TP/FP Validation](https://img.shields.io/badge/TP%2FFP_Validation-0F6E56?style=flat-square&logoColor=white)
+![L1--L2 Escalation](https://img.shields.io/badge/L1--L2_Escalation-0F6E56?style=flat-square&logoColor=white)
+![IOC Identification](https://img.shields.io/badge/IOC_Identification-0F6E56?style=flat-square&logoColor=white)
+![DFIR](https://img.shields.io/badge/DFIR-2C3E50?style=flat-square&logoColor=white)
+
+### Threat Intelligence & Frameworks
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF0000?style=flat-square&logoColor=white)
+![Cyber Kill Chain](https://img.shields.io/badge/Cyber_Kill_Chain-FF4500?style=flat-square&logoColor=white)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logoColor=white)
+![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-CC0000?style=flat-square&logoColor=white)
+![NIST CSF](https://img.shields.io/badge/NIST_CSF-1F618D?style=flat-square&logoColor=white)
+
+### Network Security
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-4B8BBE?style=flat-square&logoColor=white)
+![DNS](https://img.shields.io/badge/DNS-4B8BBE?style=flat-square&logoColor=white)
+![SSL/TLS](https://img.shields.io/badge/SSL%2FTLS-4B8BBE?style=flat-square&logoColor=white)
+![IDS/IPS](https://img.shields.io/badge/IDS%2FIPS-4B8BBE?style=flat-square&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+
+### SOAR, UEBA & Email/Malware
+![SOAR](https://img.shields.io/badge/SOAR_Concepts-6A5ACD?style=flat-square&logoColor=white)
+![UEBA](https://img.shields.io/badge/UEBA-6A5ACD?style=flat-square&logoColor=white)
+![Proofpoint](https://img.shields.io/badge/Proofpoint-E31937?style=flat-square&logoColor=white)
+![Malware Triage](https://img.shields.io/badge/Malware_Triage-6A5ACD?style=flat-square&logoColor=white)
+
+### Incident Management
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=white)
+![SLA/SOP](https://img.shields.io/badge/SLA%2FSOP-2C3E50?style=flat-square&logoColor=white)
 
 ### OS & Infrastructure
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ### Programming & Scripting
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -137,10 +169,9 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 ### 🔵 End-to-End Network SIEM Pipeline
 `Zeek → Filebeat → ELK Stack (Docker)` | Kali Linux (ARM) | Dec 2025 – Ongoing
 
-- Live packet capture via **Zeek v8.0.4** → structured logs (conn/dns/http/ssl/files/weird)
-- **Filebeat v9.2.2** ships logs to **Elasticsearch 8.x** in Docker
-- Custom **Kibana dashboards** → DNS anomalies, brute-force, suspicious traffic detection
-- MITRE ATT&CK TTPs (T1003, T1548, T1053) correlated with Zeek logs in Kibana
+- Deployed a production-grade NSM pipeline: **Zeek** (live packet capture) → **Filebeat** (log shipping) → **ELK Stack** (Docker, Elastic 8.x), replicating an industry-standard SOC monitoring environment
+- Configured Zeek via zeekctl for structured logs (conn/dns/http/ssl/files/weird)
+- Built custom **Kibana dashboards** for real-time detection of suspicious traffic, DNS anomalies, and brute-force attempts
 
 > `Zeek` `Filebeat` `ELK Stack` `Docker` `Kibana` `MITRE ATT&CK` `NSM` `Threat Detection`
 
@@ -151,10 +182,9 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 ### 🟡 Trust-SBoT — Social Bot Detection via Behavioral ML
 `Python · Scikit-learn · Random Forest · SVM` | Feb 2025
 
-- Trained on **55K+ Twitter/X profiles** — Random Forest: **90% accuracy**
-- Behavioral features engineered (follower-friend ratio importance: 0.35)
-- **12% precision improvement** over baseline | **92% malicious bot detection rate**
-- Stratified sampling for class imbalance; validated via confusion matrices
+- Built a multi-algorithm ML system across **55K+ Twitter/X profiles** — Random Forest: **90% accuracy** (Decision Tree: 85%, SVM: 80%)
+- **92% malicious bot detection rate** (FP: 234, FN: 31)
+- **12% precision improvement** via stratified sampling and behavioral feature engineering
 
 > `Machine Learning` `Random Forest` `SVM` `Bot Detection` `Pandas` `NumPy`
 
@@ -165,8 +195,8 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 ### 🟢 Mental Disorder Prediction — NLP & ML
 `Python · Scikit-learn · NLTK · TF-IDF · Streamlit` | May 2025
 
-- **53K+ Reddit posts** across 7 mental health categories — custom NLP pipeline
-- TF-IDF + SVM → **78% multi-class accuracy**
+- **53K+ Reddit posts** across 7 mental health categories — custom NLP pipeline (cleaning, lemmatization, TF-IDF)
+- SVM classifiers → **78% multi-class accuracy**
 - Live **Streamlit web app** with real-time text classification
 
 > `NLP` `TF-IDF` `SVM` `Streamlit` `NLTK` `Text Classification`
@@ -179,7 +209,7 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 
 | Certification | Issuer | Grade | Year |
 |---|---|---|---|
-| BelkaGPT: AI in DFIR | BelkaSoft | ✅ | Dec 2025 |
+| BelkaGPT: Effective AI in DFIR | BelkaSoft | ✅ | Dec 2025 |
 | Machine Learning for Cyber Security | C-DAC Hyderabad | **A+** | Oct 2025 |
 | Workshop on DSA | SSDC, SLIET | ✅ | 2022 |
 
@@ -210,9 +240,9 @@ Mentor: Vidya Sagar Siddabattula, Scientist E
 
 <div align="center">
 
-| 🏅 Global Rank | 🔥 Streak | 🎖️ Badges | 🏠 Rooms | ⚡ Level |
-|---|---|---|---|---|
-| **Top 7%** | **171 Days** | **15** | **98** | **[0x8] HACKER** |
+| 🏅 Global Rank | 🎖️ Badges | 🏠 Completed Rooms | ⚡ Level |
+|---|---|---|---|
+| **Top 5%** | **16** | **122** | **[0x9] MAGE** |
 
 </div>
 
